@@ -32,9 +32,9 @@ public class DBController  extends SQLiteOpenHelper {
         database.execSQL(query);
         Log.d(LOGCAT,"animals Created");
 
-		// Erstellt die Tabelle Animals in der androidsqlite.db mit animalId als Primärschlüssel und Intger
+		// Erstellt die Tabelle Animals in der androidsqlite.db mit animalId als Primärschlüssel und Integer
 		// und animalName als Text (String)
-		// Befehl wird als String festgelegt und dann mit database.execSQL(String) in der Datenbank ausgheführt
+		// Befehl wird als String festgelegt und dann mit database.execSQL(String) in der Datenbank ausgeführt
 
 	}
 	@Override
@@ -44,7 +44,7 @@ public class DBController  extends SQLiteOpenHelper {
 		database.execSQL(query);
         onCreate(database);
 
-		// DROP TABLE falls die Tabelle Animals schon Exisitert
+		// DROP TABLE falls die Tabelle Animals schon Existiert
 	}
 
 	//Eigene insert Methode um Animals der DB hinzuzufügen
